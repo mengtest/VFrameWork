@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_VFrameWork.-1036558694.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets/Test" t="Include">
+        <e p="Test.cs" t="Include" />
+      </e>
+      <e p="Assets/VFrameWork" t="Include">
+        <e p="Utils" t="Include">
+          <e p="CommonUtils" t="Include">
+            <e p="CommonUtil.cs" t="Include" />
+          </e>
+          <e p="EditorUtils" t="Include">
+            <e p="Editor" t="Include">
+              <e p="EditorUtil.cs" t="Include" />
+            </e>
+          </e>
+          <e p="GameObjectUtils" t="Include">
+            <e p="GameObjectUtil.cs" t="Include" />
+          </e>
+          <e p="MathUtils" t="Include">
+            <e p="MathUtil.cs" t="Include" />
+          </e>
+          <e p="PackageUtils" t="Include">
+            <e p="Editor" t="Include">
+              <e p="PackageUtil.cs" t="Include" />
+            </e>
+          </e>
+          <e p="ResolutionUtils" t="Include">
+            <e p="ResolutionUtil.cs" t="Include" />
+          </e>
+          <e p="TransformUtils" t="Include">
+            <e p="TransformUtil.cs" t="Include" />
+          </e>
+          <e p="Utils.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+      <e p="VFrameWork.sln" t="IncludeFlat" />
+    </e>
+  </component>
+</project>
