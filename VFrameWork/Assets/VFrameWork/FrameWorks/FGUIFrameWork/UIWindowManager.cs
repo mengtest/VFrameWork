@@ -41,7 +41,7 @@ namespace VFrameWork.Managers.FGUIManagers
 				    Type type = Type.GetType(item.WindowName);
 				    if (type == null)
 				    {
-					    Debug.Log("导入的"+item.PackageName+"包，并没有为其创建对应脚本文件，请创建"+item.WindowName+"脚本并继承自BaseWindow，错误代码：AA0011");
+					    Debug.LogError("导入的"+item.PackageName+"包，并没有为其创建对应脚本文件，请创建"+item.WindowName+"脚本并继承自BaseWindow，错误代码：AA0011");
 						#if UNITY_EDITOR
 					    UnityEditor.EditorApplication.isPlaying = false;
 						#endif
@@ -85,6 +85,14 @@ namespace VFrameWork.Managers.FGUIManagers
 			    uiPackageManager.UnloadAssets(bw.menuInfo.PackageName);
     		}
 		    bw = GetWindowInfo(uiWindowName);
+		    if (bw == null)
+		    {
+			    Debug.LogError("无法获得窗体信息，请检查是否打开了资源包中不存在的窗体。错误代码：AA0013");
+				#if UNITY_EDITOR
+			    UnityEditor.EditorApplication.isPlaying = false;
+				#endif
+			    return;
+		    }
 		    if (!openWindowList.Contains(bw))
 		    {
 			    uiStack.Push(bw);

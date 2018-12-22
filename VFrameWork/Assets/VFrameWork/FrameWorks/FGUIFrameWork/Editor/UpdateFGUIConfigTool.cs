@@ -19,6 +19,7 @@ namespace VFrameWork.Managers.FGUIManagers
         [MenuItem("VFrameWork/UpdateFGUIConfig %u")]
         public static void MenuClicked()
         {
+            MenuInfo.Clear();
             try
             {
                 EditorApplication.ExecuteMenuItem("Window/FairyGUI - Refresh Packages And Panels");
@@ -47,10 +48,10 @@ namespace VFrameWork.Managers.FGUIManagers
                 string[] temps = directoryInfo[i].Split('/');
                 MenuInfo menuInfo=new MenuInfo();
                 menuInfo.PackageName = temps[temps.Length-1];
-                menuInfo.WindowName = temps[temps.Length-1]+"Window";
+                menuInfo.WindowName = temps[temps.Length-1];
                 menuInfo.UiMenuType = UiMenuType.ResourceMenu;
                 menuInfos.Add(menuInfo);
-                enumItems.Add(temps[temps.Length-1]);
+                enumItems.Add(menuInfo.WindowName);
             }      
             
             directoryInfo=null;
@@ -72,7 +73,7 @@ namespace VFrameWork.Managers.FGUIManagers
                 menuInfo.WindowName = temps[temps.Length-1]+"Window";
                 menuInfo.UiMenuType = UiMenuType.WindowMenu;
                 menuInfos.Add(menuInfo);
-                enumItems.Add(temps[temps.Length-1]);
+                enumItems.Add(menuInfo.WindowName);
             }
 
             CreateUiWindowNamEumeClass(enumItems);
@@ -113,7 +114,7 @@ namespace VFrameWork.Managers.FGUIManagers
             StringBuilder temp=new StringBuilder();
             foreach (var VARIABLE in enumItems)
             {
-                temp.Append(VARIABLE+ "Window,\n       ");
+                temp.Append(VARIABLE+ ",\n       ");
             }
             sb.Replace("$enumItem", temp.ToString());
             if (File.Exists(UIWINDOWNAME))

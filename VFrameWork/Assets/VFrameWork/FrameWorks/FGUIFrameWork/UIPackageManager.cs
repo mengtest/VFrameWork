@@ -29,7 +29,7 @@ namespace VFrameWork.Managers.FGUIManagers
                 }
                 catch (Exception e)
                 {
-                    Debug.LogError(e);
+                    Debug.LogError("无法加载"+packageName+"包，请检查在Resources/FGUI/"+uiMenuType.ToString()+"/"+packageName+"目录下是否存在Fairy的资源，错误代码：AA0014");
                     #if UNITY_EDITOR
                     UnityEditor.EditorApplication.isPlaying = false;
                     #endif
