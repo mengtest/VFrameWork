@@ -2,41 +2,258 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
-    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_VFrameWork.-1036558694.00" t="ExcludeRecursive" />
+    <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_VFrameWork.-686309301.00" t="ExcludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
-      <e p="Assets/Test" t="Include">
-        <e p="Test.cs" t="Include" />
-      </e>
-      <e p="Assets/VFrameWork" t="Include">
-        <e p="Utils" t="Include">
-          <e p="CommonUtils" t="Include">
-            <e p="CommonUtil.cs" t="Include" />
-          </e>
-          <e p="EditorUtils" t="Include">
-            <e p="Editor" t="Include">
-              <e p="EditorUtil.cs" t="Include" />
+      <e p="Assets" t="Include">
+        <e p="FairyGUI" t="Include">
+          <e p="Resources" t="Include">
+            <e p="Shaders" t="Include">
+              <e p="AddOn" t="Include">
+                <e p="FairyGUI-BlurFilter.shader" t="Include" />
+              </e>
+              <e p="FairyGUI-BMFont.shader" t="Include" />
+              <e p="FairyGUI-Image.shader" t="Include" />
+              <e p="FairyGUI-Text-Brighter.shader" t="Include" />
+              <e p="FairyGUI-Text.shader" t="Include" />
             </e>
           </e>
-          <e p="GameObjectUtils" t="Include">
-            <e p="GameObjectUtil.cs" t="Include" />
-          </e>
-          <e p="MathUtils" t="Include">
-            <e p="MathUtil.cs" t="Include" />
-          </e>
-          <e p="PackageUtils" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="Core" t="Include">
+              <e p="BlendMode.cs" t="Include" />
+              <e p="CaptureCamera.cs" t="Include" />
+              <e p="Container.cs" t="Include" />
+              <e p="DisplayObject.cs" t="Include" />
+              <e p="DisplayOptions.cs" t="Include" />
+              <e p="FillUtils.cs" t="Include" />
+              <e p="GoWrapper.cs" t="Include" />
+              <e p="HitTest" t="Include">
+                <e p="BoxColliderHitTest.cs" t="Include" />
+                <e p="ColliderHitTest.cs" t="Include" />
+                <e p="HitTestContext.cs" t="Include" />
+                <e p="IHitTest.cs" t="Include" />
+                <e p="MeshColliderHitTest.cs" t="Include" />
+                <e p="PixelHitTest.cs" t="Include" />
+                <e p="RectHitTest.cs" t="Include" />
+              </e>
+              <e p="Image.cs" t="Include" />
+              <e p="MaterialManager.cs" t="Include" />
+              <e p="MovieClip.cs" t="Include" />
+              <e p="NAudioClip.cs" t="Include" />
+              <e p="NGraphics.cs" t="Include" />
+              <e p="NMaterial.cs" t="Include" />
+              <e p="NTexture.cs" t="Include" />
+              <e p="ShaderConfig.cs" t="Include" />
+              <e p="Shape.cs" t="Include" />
+              <e p="Stage.cs" t="Include" />
+              <e p="StageCamera.cs" t="Include" />
+              <e p="StageEngine.cs" t="Include" />
+              <e p="Stats.cs" t="Include" />
+              <e p="Text" t="Include">
+                <e p="BaseFont.cs" t="Include" />
+                <e p="BitmapFont.cs" t="Include" />
+                <e p="CopyPastePatch.cs" t="Include" />
+                <e p="DynamicFont.cs" t="Include" />
+                <e p="Emoji.cs" t="Include" />
+                <e p="FontManager.cs" t="Include" />
+                <e p="IKeyboard.cs" t="Include" />
+                <e p="InputTextField.cs" t="Include" />
+                <e p="RichTextField.cs" t="Include" />
+                <e p="RTLSupport.cs" t="Include" />
+                <e p="SelectionShape.cs" t="Include" />
+                <e p="TextField.cs" t="Include" />
+                <e p="TextFormat.cs" t="Include" />
+                <e p="TouchScreenKeyboard.cs" t="Include" />
+                <e p="TypingEffect.cs" t="Include" />
+              </e>
+              <e p="UpdateContext.cs" t="Include" />
+            </e>
             <e p="Editor" t="Include">
-              <e p="PackageUtil.cs" t="Include" />
+              <e p="DisplayObjectEditor.cs" t="Include" />
+              <e p="EditorToolSet.cs" t="Include" />
+              <e p="PackagesWindow.cs" t="Include" />
+              <e p="StageCameraEditor.cs" t="Include" />
+              <e p="UIConfigEditor.cs" t="Include" />
+              <e p="UIContentScalerEditor.cs" t="Include" />
+              <e p="UIPainterEditor.cs" t="Include" />
+              <e p="UIPanelEditor.cs" t="Include" />
+            </e>
+            <e p="Event" t="Include">
+              <e p="EventBridge.cs" t="Include" />
+              <e p="EventContext.cs" t="Include" />
+              <e p="EventDispatcher.cs" t="Include" />
+              <e p="EventListener.cs" t="Include" />
+              <e p="IEventDispatcher.cs" t="Include" />
+              <e p="InputEvent.cs" t="Include" />
+            </e>
+            <e p="Filter" t="Include">
+              <e p="BlurFilter.cs" t="Include" />
+              <e p="ColorFilter.cs" t="Include" />
+              <e p="IFilter.cs" t="Include" />
+            </e>
+            <e p="Gesture" t="Include">
+              <e p="LongPressGesture.cs" t="Include" />
+              <e p="PinchGesture.cs" t="Include" />
+              <e p="RotationGesture.cs" t="Include" />
+              <e p="SwipeGesture.cs" t="Include" />
+            </e>
+            <e p="Tween" t="Include">
+              <e p="EaseManager.cs" t="Include" />
+              <e p="EaseType.cs" t="Include" />
+              <e p="GTween.cs" t="Include" />
+              <e p="GTweener.cs" t="Include" />
+              <e p="TweenManager.cs" t="Include" />
+              <e p="TweenPropType.cs" t="Include" />
+              <e p="TweenValue.cs" t="Include" />
+            </e>
+            <e p="UI" t="Include">
+              <e p="Action" t="Include">
+                <e p="ChangePageAction.cs" t="Include" />
+                <e p="ControllerAction.cs" t="Include" />
+                <e p="PlayTransitionAction.cs" t="Include" />
+              </e>
+              <e p="AsyncCreationHelper.cs" t="Include" />
+              <e p="Controller.cs" t="Include" />
+              <e p="DragDropManager.cs" t="Include" />
+              <e p="EMRenderSupport.cs" t="Include" />
+              <e p="FieldTypes.cs" t="Include" />
+              <e p="GButton.cs" t="Include" />
+              <e p="GComboBox.cs" t="Include" />
+              <e p="GComponent.cs" t="Include" />
+              <e p="Gears" t="Include">
+                <e p="GearAnimation.cs" t="Include" />
+                <e p="GearBase.cs" t="Include" />
+                <e p="GearColor.cs" t="Include" />
+                <e p="GearDisplay.cs" t="Include" />
+                <e p="GearIcon.cs" t="Include" />
+                <e p="GearLook.cs" t="Include" />
+                <e p="GearSize.cs" t="Include" />
+                <e p="GearText.cs" t="Include" />
+                <e p="GearXY.cs" t="Include" />
+                <e p="IAnimationGear.cs" t="Include" />
+                <e p="IColorGear.cs" t="Include" />
+              </e>
+              <e p="GGraph.cs" t="Include" />
+              <e p="GGroup.cs" t="Include" />
+              <e p="GImage.cs" t="Include" />
+              <e p="GLabel.cs" t="Include" />
+              <e p="GList.cs" t="Include" />
+              <e p="GLoader.cs" t="Include" />
+              <e p="GMovieClip.cs" t="Include" />
+              <e p="GObject.cs" t="Include" />
+              <e p="GObjectPool.cs" t="Include" />
+              <e p="GProgressBar.cs" t="Include" />
+              <e p="GRichTextField.cs" t="Include" />
+              <e p="GRoot.cs" t="Include" />
+              <e p="GScrollBar.cs" t="Include" />
+              <e p="GSlider.cs" t="Include" />
+              <e p="GTextField.cs" t="Include" />
+              <e p="GTextInput.cs" t="Include" />
+              <e p="IUISource.cs" t="Include" />
+              <e p="Margin.cs" t="Include" />
+              <e p="PackageItem.cs" t="Include" />
+              <e p="PageOption.cs" t="Include" />
+              <e p="PopupMenu.cs" t="Include" />
+              <e p="RelationItem.cs" t="Include" />
+              <e p="Relations.cs" t="Include" />
+              <e p="ScrollPane.cs" t="Include" />
+              <e p="Transition.cs" t="Include" />
+              <e p="TranslationHelper.cs" t="Include" />
+              <e p="Tree" t="Include">
+                <e p="TreeNode.cs" t="Include" />
+                <e p="TreeView.cs" t="Include" />
+              </e>
+              <e p="UIConfig.cs" t="Include" />
+              <e p="UIContentScaler.cs" t="Include" />
+              <e p="UIObjectFactory.cs" t="Include" />
+              <e p="UIPackage.cs" t="Include" />
+              <e p="UIPainter.cs" t="Include" />
+              <e p="UIPanel.cs" t="Include" />
+              <e p="Window.cs" t="Include" />
+            </e>
+            <e p="Utils" t="Include">
+              <e p="ByteBuffer.cs" t="Include" />
+              <e p="Html" t="Include">
+                <e p="HtmlButton.cs" t="Include" />
+                <e p="HtmlElement.cs" t="Include" />
+                <e p="HtmlImage.cs" t="Include" />
+                <e p="HtmlInput.cs" t="Include" />
+                <e p="HtmlLink.cs" t="Include" />
+                <e p="HtmlPageContext.cs" t="Include" />
+                <e p="HtmlParseOptions.cs" t="Include" />
+                <e p="HtmlParser.cs" t="Include" />
+                <e p="HtmlSelect.cs" t="Include" />
+                <e p="IHtmlObject.cs" t="Include" />
+                <e p="IHtmlPageContext.cs" t="Include" />
+              </e>
+              <e p="Timers.cs" t="Include" />
+              <e p="ToolSet.cs" t="Include" />
+              <e p="UBBParser.cs" t="Include" />
+              <e p="XML.cs" t="Include" />
+              <e p="XMLIterator.cs" t="Include" />
+              <e p="XMLList.cs" t="Include" />
+              <e p="XMLUtils.cs" t="Include" />
+              <e p="ZipReader.cs" t="Include" />
             </e>
           </e>
-          <e p="ResolutionUtils" t="Include">
-            <e p="ResolutionUtil.cs" t="Include" />
+        </e>
+        <e p="Resources" t="Include">
+          <e p="FGUI" t="Include">
+            <e p="Config" t="Include">
+              <e p="UiWindowNameTemplate.txt" t="Include" />
+            </e>
           </e>
-          <e p="TransformUtils" t="Include">
-            <e p="TransformUtil.cs" t="Include" />
+        </e>
+        <e p="VFrameWork" t="Include">
+          <e p="FrameWorks" t="Include">
+            <e p="FGUIFrameWork" t="Include">
+              <e p="BaseWindow.cs" t="Include" />
+              <e p="Editor" t="Include">
+                <e p="UpdateFGUIConfigTool.cs" t="Include" />
+              </e>
+              <e p="MenuInfo.cs" t="Include" />
+              <e p="UiMenuType.cs" t="Include" />
+              <e p="UIPackageManager.cs" t="Include" />
+              <e p="UIWindowManager.cs" t="Include" />
+              <e p="UiWindowName.cs" t="Include" />
+            </e>
+            <e p="MusicFrameWork" t="Include">
+              <e p="MusicManager.cs" t="Include" />
+            </e>
+            <e p="SingletonFrameWork" t="Include">
+              <e p="MonoSingleton.cs" t="Include" />
+              <e p="SingLeton.cs" t="Include" />
+            </e>
           </e>
-          <e p="Utils.cs" t="Include" />
+          <e p="Utils" t="Include">
+            <e p="CommonUtils" t="Include">
+              <e p="CommonUtil.cs" t="Include" />
+            </e>
+            <e p="EditorUtils" t="Include">
+              <e p="Editor" t="Include">
+                <e p="EditorUtil.cs" t="Include" />
+              </e>
+            </e>
+            <e p="GameObjectUtils" t="Include">
+              <e p="GameObjectUtil.cs" t="Include" />
+            </e>
+            <e p="MathUtils" t="Include">
+              <e p="MathUtil.cs" t="Include" />
+            </e>
+            <e p="PackageUtils" t="Include">
+              <e p="Editor" t="Include">
+                <e p="PackageUtil.cs" t="Include" />
+              </e>
+            </e>
+            <e p="ResolutionUtils" t="Include">
+              <e p="ResolutionUtil.cs" t="Include" />
+            </e>
+            <e p="TransformUtils" t="Include">
+              <e p="TransformUtil.cs" t="Include" />
+            </e>
+            <e p="Utils.cs" t="Include" />
+          </e>
         </e>
       </e>
       <e p="Library" t="ExcludeRecursive" />

@@ -12,10 +12,10 @@ namespace VFrameWork.Utils.PackageUtils
             return "VFramework_" + DateTime.Now.ToString("yyyyMMdd_HH");
         }
 
-        [MenuItem("VFramework/Package %e", false, 1)]
+        [MenuItem("VFrameWork/Package %e", false, 1)]
         static void MenuClicked()
         {
-            EditorUtil.ExportPackage("Assets/VFramework", GeneratePackageName() + ".unitypackage");
+            EditorUtil.ExportPackage("Assets", GeneratePackageName() + ".unitypackage");
             EditorUtil.OpenInFolder(Path.Combine(Application.dataPath, "../"));
         }
     }
